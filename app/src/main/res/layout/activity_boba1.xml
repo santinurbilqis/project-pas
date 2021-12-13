@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bckboba"
+    tools:context=".Boba1Activity">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/boba1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/boba1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/boba2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/boba2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boba1" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/boba3"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/boba3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/boba4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/boba4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boba5" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/boba5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/boba5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boba3" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/boba6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/boba6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boba2" />
+
+    <Button
+        android:id="@+id/btn_bb2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:text="KEMBALI KE MENU"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/boba4" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck1"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="MINUMAN"
+        android:textSize="16pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.005" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/teh"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="110dp"
+        android:text="Es teh"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@+id/textView8"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/jeruk"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="50dp"
+        android:text="Es jeruk"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView2" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView4"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/kelapa"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="24dp"
+        android:text="Es kelapa"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView4" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView5"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/boba"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView8" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="50dp"
+        android:text="Es boba"
+        android:textSize="14pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView5" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

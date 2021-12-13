@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bck1"
+    tools:context=".Kelapa1">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/Kelapa1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="24dp"
+        android:src="@drawable/kelapa1"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/kelapa2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/kelapa2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView6"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/kelapa3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Kelapa1" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView7"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/kelapa4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/kelapa2" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView9"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="32dp"
+        android:src="@drawable/kelapa5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView6" />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/circleImageView8"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="32dp"
+        android:src="@drawable/kelapa6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView7" />
+
+    <Button
+        android:id="@+id/btn_klp2"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="32dp"
+        android:text="KEMBALI KE MENU"
+        android:textSize="7pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/circleImageView9" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
